@@ -1,6 +1,6 @@
-import 'package:countries_world_map/lib/world_map/canvas/src/canvas_touch_detector.dart';
-import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
 // import 'package:countries_world_map/world/simple_world/src/test2.dart';
+import 'package:countries_world_map/old/world/simple_world/src/simple_world_colors.dart';
+import 'package:countries_world_map/world_map/canvas/src/canvas_touch_detector.dart';
 import 'package:flutter/material.dart';
 
 import 'painter.dart';

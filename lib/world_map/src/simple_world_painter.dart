@@ -1,17 +1,18 @@
-import 'package:countries_world_map/lib/world_map/canvas/src/touchy_canvas.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i1.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i10.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i2.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i3.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i4.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i5.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i6.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i7.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i8.dart';
-import 'package:countries_world_map/lib/world_map/src/painter/i9.dart';
-import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
 import 'package:countries_world_map/old/countries/north-america/usa/usa.dart';
+import 'package:countries_world_map/world_map/canvas/src/touchy_canvas.dart';
 import 'package:flutter/material.dart';
+
+import 'painter/i1.dart';
+import 'painter/i10.dart';
+import 'painter/i2.dart';
+import 'painter/i3.dart';
+import 'painter/i4.dart';
+import 'painter/i5.dart';
+import 'painter/i6.dart';
+import 'painter/i7.dart';
+import 'painter/i8.dart';
+import 'painter/i9.dart';
+import 'simple_world_colors.dart';
 
 /// This painter will paint a world map with all///
 /// Giving countries a different color based on a data set can help visualize data.

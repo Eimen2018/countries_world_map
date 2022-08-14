@@ -1,4 +1,4 @@
-import 'package:countries_world_map/lib/world_map/canvas/src/canvas_touch_detector.dart';
+import 'package:countries_world_map/world_map/canvas/src/canvas_touch_detector.dart';
 import 'package:flutter/material.dart';
 
 import 'netherlands_colors.dart';

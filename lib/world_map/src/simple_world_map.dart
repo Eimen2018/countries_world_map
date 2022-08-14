@@ -1,8 +1,9 @@
-import 'package:countries_world_map/lib/world_map/canvas/src/canvas_touch_detector.dart';
-import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
-import 'package:countries_world_map/lib/world_map/src/simple_world_painter.dart';
 import 'package:countries_world_map/old/countries/north-america/usa/usa.dart';
+import 'package:countries_world_map/world_map/canvas/src/canvas_touch_detector.dart';
 import 'package:flutter/material.dart';
+
+import 'simple_world_colors.dart';
+import 'simple_world_painter.dart';
 
 /// The WorldMap widget returns a combination of Widgets sutable for most use cases
 ///
