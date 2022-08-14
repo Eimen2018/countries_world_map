@@ -1,7 +1,7 @@
-import 'dart:ui';
+import 'package:countries_world_map/lib/world_map/canvas/src/touchy_canvas.dart';
 import 'package:flutter/material.dart';
-import 'package:countries_world_map/canvas/touchable_canvas.dart';
-import 'package:countries_world_map/countries/north-america/usa/src/usa_colors.dart';
+
+import 'usa_colors.dart';
 
 class USAPainter extends CustomPainter {
   final Color defaultColor;

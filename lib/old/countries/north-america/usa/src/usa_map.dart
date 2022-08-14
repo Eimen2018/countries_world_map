@@ -1,7 +1,8 @@
-import 'package:countries_world_map/canvas/touchable_canvas.dart';
-import 'package:countries_world_map/countries/north-america/usa/src/usa_colors.dart';
-import 'package:countries_world_map/countries/north-america/usa/src/usa_painter.dart';
+import 'package:countries_world_map/lib/world_map/canvas/src/canvas_touch_detector.dart';
 import 'package:flutter/material.dart';
+
+import 'usa_colors.dart';
+import 'usa_painter.dart';
 
 class USAMap extends StatelessWidget {
   /// This is the default color for all countries. If not provided the default Color will be grey.

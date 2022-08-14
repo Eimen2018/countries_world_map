@@ -1,7 +1,7 @@
-import 'dart:ui';
-import 'package:countries_world_map/canvas/touchable_canvas.dart';
-import 'package:countries_world_map/countries/europe/netherlands/src/netherlands_colors.dart';
+import 'package:countries_world_map/lib/world_map/canvas/src/touchy_canvas.dart';
 import 'package:flutter/material.dart';
+
+import 'netherlands_colors.dart';
 
 class NetherlandsPainter extends CustomPainter {
   final Color defaultColor;

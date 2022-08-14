@@ -1,6 +1,7 @@
-import 'package:countrie_counter/components/world_map/canvas/src/canvas_touch_detector.dart';
-import 'package:countrie_counter/components/world_map/src/simple_world_colors.dart';
-import 'package:countrie_counter/components/world_map/src/simple_world_painter.dart';
+import 'package:countries_world_map/lib/world_map/canvas/src/canvas_touch_detector.dart';
+import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
+import 'package:countries_world_map/lib/world_map/src/simple_world_painter.dart';
+import 'package:countries_world_map/old/countries/north-america/usa/usa.dart';
 import 'package:flutter/material.dart';
 
 /// The WorldMap widget returns a combination of Widgets sutable for most use cases
@@ -23,6 +24,7 @@ class SimpleWorldMap extends StatelessWidget {
 
   /// This is the color behind the counties which will fill up all the blank space like oceans.
   final Color? backgroundColor;
+  final USAColors? usaColors;
   final Function(String, TapUpDetails)? callback;
 
   const SimpleWorldMap(
@@ -30,6 +32,7 @@ class SimpleWorldMap extends StatelessWidget {
       this.backgroundColor,
       this.countryColors,
       this.callback,
+      this.usaColors,
       Key? key})
       : super(key: key);
 
@@ -50,16 +53,17 @@ class SimpleWorldMap extends StatelessWidget {
                             size: Size(
                                 constraints.maxWidth, constraints.maxHeight),
                             painter: SimpleWorldPainter(
-                                context: context,
-                                callback: (country, tapdetails) {
-                                  if (callback != null) {
-                                    callback!(country, tapdetails);
-                                  }
-                                },
-                                countryColors: countryColors ??
-                                    const SimpleWorldCountryColors(),
-                                defaultColors:
-                                    defaultCountryColor ?? Colors.grey),
+                              context: context,
+                              callback: (country, tapdetails) {
+                                if (callback != null) {
+                                  callback!(country, tapdetails);
+                                }
+                              },
+                              countryColors: countryColors ??
+                                  const SimpleWorldCountryColors(),
+                              defaultColors: defaultCountryColor ?? Colors.grey,
+                              usaColors: usaColors ?? USAColors(),
+                            ),
                           ))));
         },
       ),

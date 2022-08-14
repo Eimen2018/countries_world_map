@@ -1,5 +1,6 @@
+import 'package:countries_world_map/lib/world_map/canvas/src/touchy_canvas.dart';
+import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 
 class SimpleWidgetsMapDrawingModel {
   final String name;
@@ -53,4 +54,3 @@ class SimpleWidgetsMapPainter extends CustomPainter {
     @override
   bool shouldRepaint(SimpleWidgetsMapPainter oldDelegate) => oldDelegate.cC != cC;
   }
-}

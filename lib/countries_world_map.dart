@@ -1,7 +1,7 @@
 // library countries_world_map;
 
 // // world libraries
-// export 'world/simple_world/simple_world.dart';
+export 'lib/world_map/src/simple_world_map.dart';
 
 // // continent libraries
 // // empty

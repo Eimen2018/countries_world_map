@@ -1,7 +1,8 @@
-import 'package:countries_world_map/canvas/src/canvas_touch_detector.dart';
-import 'package:countries_world_map/countries/europe/netherlands/src/netherlands_colors.dart';
-import 'package:countries_world_map/countries/europe/netherlands/src/netherlands_painter.dart';
+import 'package:countries_world_map/lib/world_map/canvas/src/canvas_touch_detector.dart';
 import 'package:flutter/material.dart';
+
+import 'netherlands_colors.dart';
+import 'netherlands_painter.dart';
 
 class NetherlandsMap extends StatelessWidget {
   /// This is the default color for all countries. If not provided the default Color will be grey.

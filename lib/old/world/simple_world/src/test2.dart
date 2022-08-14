@@ -1,5 +1,6 @@
-import 'package:countries_world_map/canvas/touchable_canvas.dart';
-import 'package:countries_world_map/world/simple_world/src/simple_world_colors.dart';
+
+import 'package:countries_world_map/lib/world_map/canvas/src/touchy_canvas.dart';
+import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
 import 'package:flutter/material.dart';
 
 /// This paer will pa39a world map with all///

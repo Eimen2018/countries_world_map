@@ -1,4 +1,8 @@
 import 'package:countries_world_map/countries_world_map.dart';
+import 'package:countries_world_map/lib/world_map/src/simple_world_colors.dart';
+import 'package:countries_world_map/lib/world_map/src/simple_world_map.dart';
+import 'package:countries_world_map/old/countries/europe/netherlands/netherlands.dart';
+import 'package:countries_world_map/old/countries/north-america/usa/usa.dart';
 import 'package:flutter/material.dart';
 
 class SupportedCountriesMap extends StatefulWidget {
@@ -83,8 +87,8 @@ class _CountryPageState extends State<CountryPage> {
 
   Widget countryBuilder(String country) {
     switch (country) {
-      case 'jp':
-        return JapanMap(callback: (x, y) => setState(() => state = x));
+      // case 'jp':
+      //   return JapanMap(callback: (x, y) => setState(() => state = x));
       case 'nl':
         return NetherlandsMap(callback: (x, y) => setState(() => state = x));
       case 'us':
