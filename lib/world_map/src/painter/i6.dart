@@ -23,6 +23,8 @@ void iSix(s, canvas, cClrs, usaColors, dfltClr, callback) {
     callback('us', tabdetail);
   });
 
+  iTen(s, canvas, usaColors, dfltClr, callback);
+
   Path p252 = Path();
   p252.moveTo(s.width * 0.2050000, s.height * 0.07771295);
   p252.lineTo(s.width * 0.1927000, s.height * 0.1015169);
@@ -166,7 +168,6 @@ void iSix(s, canvas, cClrs, usaColors, dfltClr, callback) {
   canvas.drawPath(p252, paint252fill, onTapUp: (tabdetail) {
     callback('us', tabdetail);
   });
-  iTen(s, canvas, usaColors, dfltClr, callback);
 
   Path p253 = Path();
   p253.moveTo(s.width * 0.3386500, s.height * 0.5682614);
