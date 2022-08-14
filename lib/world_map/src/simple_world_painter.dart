@@ -46,8 +46,8 @@ class SimpleWorldPainter extends CustomPainter {
     iThree(s, canvas, countryColors, defaultColors, callback);
     iFour(s, canvas, countryColors, defaultColors, callback);
     iFive(s, canvas, countryColors, defaultColors, callback);
-    iSix(s, canvas, countryColors, defaultColors, callback);
-    iTen(s, canvas, usaColors, defaultColors, callback);
+    iSix(s, canvas, countryColors,usaColors, defaultColors, callback);
+    // iTen(s, canvas, , defaultColors, callback);
     iSeven(s, canvas, countryColors, defaultColors, callback);
     iEight(s, canvas, countryColors, defaultColors, callback);
     iNine(s, canvas, countryColors, defaultColors, callback);

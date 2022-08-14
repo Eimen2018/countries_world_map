@@ -1,6 +1,7 @@
+import 'package:countries_world_map/world_map/src/painter/i10.dart';
 import 'package:flutter/painting.dart';
 
-void iSix(s, canvas, cClrs, dfltClr, callback) {
+void iSix(s, canvas, cClrs, usaColors, dfltClr, callback) {
   Path p251 = Path();
   p251.moveTo(s.width * 0.1186000, s.height * 0.1162194);
   p251.lineTo(s.width * 0.1192000, s.height * 0.1173862);
@@ -165,6 +166,7 @@ void iSix(s, canvas, cClrs, dfltClr, callback) {
   canvas.drawPath(p252, paint252fill, onTapUp: (tabdetail) {
     callback('us', tabdetail);
   });
+  iTen(s, canvas, usaColors, dfltClr, callback);
 
   Path p253 = Path();
   p253.moveTo(s.width * 0.3386500, s.height * 0.5682614);
