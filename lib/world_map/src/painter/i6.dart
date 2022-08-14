@@ -1,7 +1,7 @@
 import 'package:countries_world_map/world_map/src/painter/i10.dart';
 import 'package:flutter/painting.dart';
 
-void iSix(s, canvas, cClrs, usaColors, dfltClr, callback) {
+void iSix(Size s, canvas, cClrs, usaColors, dfltClr, callback) {
   Path p251 = Path();
   p251.moveTo(s.width * 0.1186000, s.height * 0.1162194);
   p251.lineTo(s.width * 0.1192000, s.height * 0.1173862);
@@ -23,7 +23,8 @@ void iSix(s, canvas, cClrs, usaColors, dfltClr, callback) {
     callback('us', tabdetail);
   });
 
-  iTen(s, canvas, usaColors, dfltClr, callback);
+  iTen(Size(s.width * 0.1, s.height * 0.1), canvas, usaColors, dfltClr,
+      callback);
 
   Path p252 = Path();
   p252.moveTo(s.width * 0.2050000, s.height * 0.07771295);
