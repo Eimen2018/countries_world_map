@@ -1,6 +1,6 @@
 library countries_world_map;
 
-export 'old/countries/north-america/usa/usa.dart';
+export 'old/countries/north-america/usa/src/usa_map.dart';
 // // world libraries
 export 'world_map/src/simple_world_map.dart';
 

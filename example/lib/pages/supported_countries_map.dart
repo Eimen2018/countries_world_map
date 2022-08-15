@@ -1,6 +1,5 @@
 import 'package:countries_world_map/countries_world_map.dart';
 import 'package:countries_world_map/old/countries/europe/netherlands/netherlands.dart';
-import 'package:countries_world_map/old/countries/north-america/usa/usa.dart';
 import 'package:countries_world_map/world_map/src/simple_world_colors.dart';
 import 'package:flutter/material.dart';
 
