@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'canvas_touch_detector.dart';
 import 'shape_handler.dart';
 import 'shapes/path.dart';
@@ -51,6 +52,9 @@ class TouchyCanvas {
     // GestureTapUpCallback? onSecondaryTapUp,
   }) {
     _canvas.drawPath(path, paint);
+    Paint paint2 = Paint()..style = PaintingStyle.stroke;
+    paint2.color = Colors.white;
+    _canvas.drawPath(path, paint2);
     _shapeHandler.addShape(PathShape(path,
         paint: paint,
         hitTestBehavior: hitTestBehavior,

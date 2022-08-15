@@ -3,7 +3,6 @@ import 'package:countries_world_map/world_map/canvas/src/touchy_canvas.dart';
 import 'package:flutter/material.dart';
 
 import 'painter/i1.dart';
-import 'painter/i10.dart';
 import 'painter/i2.dart';
 import 'painter/i3.dart';
 import 'painter/i4.dart';
@@ -27,13 +26,13 @@ class SimpleWorldPainter extends CustomPainter {
   final USAColors usaColors;
   final Function(String, TapUpDetails) callback;
 
-  const SimpleWorldPainter(
-      {required this.defaultColors,
-      required this.countryColors,
-      required this.context,
-      required this.callback,
-      required this.usaColors,
-      });
+  const SimpleWorldPainter({
+    required this.defaultColors,
+    required this.countryColors,
+    required this.context,
+    required this.callback,
+    required this.usaColors,
+  });
 // ignore_for_file: avoid_renaming_method_parameters
   @override
   void paint(Canvas c, Size s) {
@@ -46,7 +45,7 @@ class SimpleWorldPainter extends CustomPainter {
     iThree(s, canvas, countryColors, defaultColors, callback);
     iFour(s, canvas, countryColors, defaultColors, callback);
     iFive(s, canvas, countryColors, defaultColors, callback);
-    iSix(s, canvas, countryColors,usaColors, defaultColors, callback);
+    iSix(s, canvas, countryColors, defaultColors, callback);
     // iTen(s, canvas, , defaultColors, callback);
     iSeven(s, canvas, countryColors, defaultColors, callback);
     iEight(s, canvas, countryColors, defaultColors, callback);
